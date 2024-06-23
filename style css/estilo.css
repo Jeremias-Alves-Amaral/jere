@@ -1,0 +1,134 @@
+body{
+    height: 1170px;
+    padding: 100px;
+    color: white;
+    font-family: roma;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 32%, rgba(226,77,9,1) 100%);
+    background-size: 125% 100%;
+    animation: gradient-animation 5s ease infinite;
+    } 
+
+    @keyframes gradient-animation {
+      0% {
+       background-position: 0% 50%;
+      }
+
+      50% {
+       background-position: 100% 50%;
+      }
+
+      100% {
+       background-position: 0% 50%;
+      }
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    text-align: end;
+    text-align: center;
+    
+
+
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb( 226, 77, 9);
+    transition: 0.3s all;
+
+}
+
+#spotify{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#spotify:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.3s;
+}
+
+h1{
+    font-weight: 200;
+    position: fixed;
+    line-height: 20px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    align-items: center;
+}
+
+
+h2{
+    font-size: 56px;
+    line-height: 125px;
+    font-family: ama;
+    font-weight: 200;
+}
+
+span{
+    color: rgb( 226, 77, 9);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: lemon;
+}
+
+img{
+    width: 400px;
+    margin: auto;
+    margin-left: 100px;
+   
+    border-radius: 20px;
+}
+
+#imagem{
+    margin-left: 115px;
+}
+
+#abençoado:hover{
+    color:rgb( 226, 77, 9);
+}
+
+#jere{
+    margin-top: 100px;
+}
+
+#nav{
+    position: fixed;
+    top: 0;
+    right: 125px;
+    text-align: center;
+    text-align: 100px ;
+    
+      
+}
